@@ -58,9 +58,7 @@ public class welcome {
                     intellectual_heath int1 = new intellectual_heath(bok, gam, w1, e1, a1);
 
                     
-                } else {
-                    System.out.println("Error choice");
-                }
+                } 
 
             } else if (select1 == 2) {
                 FreeTime free = new FreeTime();
@@ -86,6 +84,10 @@ public class welcome {
                 System.out.println(free.comveiw());
             } else if (select1 == 3)
                 exit = 3;
+            
+            else {
+                    System.out.println("Error choice");
+                }
         }
     }
 
