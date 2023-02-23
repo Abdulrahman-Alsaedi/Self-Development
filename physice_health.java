@@ -23,7 +23,7 @@ public class physice_health extends Self_development implements Type {
     }
 
     public String type() {
-        return "      the physice_health is very good for Being physically active can improve your brain health, help manage weight, reduce the risk of disease, strengthen bones and muscles, and improve your ability to do everyday activities.        ";
+        return "[the physice health is very good for Being physically active can improve your brain health, help manage weight, reduce the risk of disease, strengthen bones and muscles, and improve your ability to do everyday activities.]";
 
     }
 
